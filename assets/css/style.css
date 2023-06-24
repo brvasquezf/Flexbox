@@ -7,10 +7,6 @@ body, div{
     font-family: Roboto;
 }
 
-div ul li{
-    list-style: none;
-}
-
 .container{
     display: flex;
     flex-direction: row;
@@ -18,36 +14,89 @@ div ul li{
 
 /*Columna 1 */
 
-.columna-1{
+.chat{
     background-color: white;
     width: 25em;
     min-height: 100vh;
 }
 
+.box_perfil{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 .perfil img{
-    width: 45px;
-    border-radius: 25px;
+    width: 65px;
+    height: 65px;
+    border-radius: 100%; 
+}
+
+.perfil{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.nombre_perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 2vh;
+}
+
+.nombre_perfil h5,p{
+    margin: 0;
+}
+
+.nombre_perfil p{
+    font-size: x-small;
+}
+
+.nombre_perfil p{
+    font-size: x-small;
+}
+
+.box_chat img{
+    width: 55px;
+    height: 55px;
+    border-radius: 100%; 
+}
+
+.box_chat{
+    display: flex;
+    align-items: center;
+}
+
+.box_chat h4{
+    margin: 0;
+}
+
+.box_contactos{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2em;
 }
 
 
-/*Columna 2*/
+/*nertworking*/
 
-.columna-2{
+.nertworking{
     background-color: #E8EBE4;
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    flex-grow:1;
+    flex-grow: 1;
 
 }
 
-.columna-2 img{
+.nertworking img{
     width: 250px;
     height: 250px;
 }
 
-.columna-2 p {
+.nertworking p {
     max-width: 800px;
     min-width:300px;
     width: 50%;
